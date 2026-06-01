@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	appName = "pool-manager-8c8caa"
+	appName = "pool-manager-aaa7e5"
 	version = "1.8.0"
 )
 
