@@ -1,4 +1,4 @@
-# pool-manager-aaa7e5
+# pool-manager-a3e8b9
 
 A Go pool-manager utility.
 
